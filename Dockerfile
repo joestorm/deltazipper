@@ -30,4 +30,4 @@ VOLUME /var/opt/MyDir/deltaCompareDir
 RUN mkdir /var/opt/MyDir/deltaZips
 VOLUME /var/opt/MyDir/deltaZips
 RUN mkdir /var/opt/scripts
-ADD scripts/* /var/opt/scripts/
+ADD deltaZip.sh /var/opt/scripts/
